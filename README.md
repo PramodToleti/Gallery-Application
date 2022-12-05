@@ -43,6 +43,3 @@ The app has the following functionalities
 </div>
 <br/>
 
-</details>
-
-<details>

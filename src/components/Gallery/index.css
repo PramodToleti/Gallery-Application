@@ -1,0 +1,88 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 577px) {
+  .background-color-0 {
+    background-image: radial-gradient(#ffffff, #aef7f6, #94ccec);
+  }
+
+  .background-color-1 {
+    background-image: radial-gradient(#ffffff, #ecc594, #94ccec);
+  }
+
+  .background-color-2 {
+    background-image: radial-gradient(#ffffff, #f7f7aa, #94ccec);
+  }
+
+  .background-color-3 {
+    background-image: radial-gradient(#ffffff, #94d29e, #94ccec);
+  }
+
+  .background-color-4 {
+    background-image: radial-gradient(#ffffff, #94f89d, #94ccec);
+  }
+
+  .background-color-5 {
+    background-image: radial-gradient(#ffffff, #94ecd0, #94ccec);
+  }
+
+  .background-color-6 {
+    background-image: radial-gradient(#ffffff, #e7f7e9, #94ccec);
+  }
+
+  .background-color-7 {
+    background-image: radial-gradient(#ffffff, #d6d8d6, #94ccec);
+  }
+}
+
+.container {
+  width: 330px;
+}
+
+@media screen and (min-width: 577px) {
+  .container {
+    width: 700px;
+  }
+}
+
+.image-container {
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 330px;
+}
+
+@media screen and (min-width: 577px) {
+  .body {
+    width: 700px;
+  }
+}
+
+.photography-title {
+  color: #1e293b;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.user-details {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.thumbnail-container {
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

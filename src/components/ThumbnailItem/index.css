@@ -1,0 +1,28 @@
+.thumbnail-container {
+  list-style-type: none;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 577px) {
+  .thumbnail-container {
+    margin-right: 10px;
+  }
+}
+
+.thumbnail-image {
+  opacity: 0.5;
+  transition: transform 0.5s;
+}
+
+.thumbnail-image:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.image-button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
